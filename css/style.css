@@ -1836,7 +1836,9 @@ body {
     -webkit-font-smoothing: auto;
 }
 .site-header {
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 20;
     background: var(--paper);
     backdrop-filter: none;
     border-bottom: 1px solid var(--line);
